@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D021312D1C7F2B6A006E7E23 /* GoodBarber-Open-UI-Kit-Q1-2016.sketch in Resources */ = {isa = PBXBuildFile; fileRef = D021312C1C7F2B6A006E7E23 /* GoodBarber-Open-UI-Kit-Q1-2016.sketch */; };
 		D05C74201C71173F00BD2EFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C741F1C71173F00BD2EFB /* AppDelegate.swift */; };
 		D05C74221C71173F00BD2EFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05C74211C71173F00BD2EFB /* ViewController.swift */; };
 		D05C74251C71173F00BD2EFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05C74231C71173F00BD2EFB /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D021312C1C7F2B6A006E7E23 /* GoodBarber-Open-UI-Kit-Q1-2016.sketch */ = {isa = PBXFileReference; lastKnownFileType = file; name = "GoodBarber-Open-UI-Kit-Q1-2016.sketch"; path = "../../../Downloads/GoodBarber-Open-UI-Kit-Q1-2016/GoodBarber-Open-UI-Kit-Q1-2016.sketch"; sourceTree = "<group>"; };
 		D05C741C1C71173F00BD2EFB /* SuperCool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05C741F1C71173F00BD2EFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D05C74211C71173F00BD2EFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				D05C74211C71173F00BD2EFB /* ViewController.swift */,
 				D05C74231C71173F00BD2EFB /* Main.storyboard */,
 				D05C74261C71173F00BD2EFB /* Assets.xcassets */,
+				D021312C1C7F2B6A006E7E23 /* GoodBarber-Open-UI-Kit-Q1-2016.sketch */,
 				D05C74281C71173F00BD2EFB /* LaunchScreen.storyboard */,
 				D05C742B1C71173F00BD2EFB /* Info.plist */,
 			);
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					D05C741B1C71173E00BD2EFB = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GT9VH2TL94;
 					};
 				};
 			};
@@ -122,6 +126,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D021312D1C7F2B6A006E7E23 /* GoodBarber-Open-UI-Kit-Q1-2016.sketch in Resources */,
 				D05C742A1C71173F00BD2EFB /* LaunchScreen.storyboard in Resources */,
 				D05C74271C71173F00BD2EFB /* Assets.xcassets in Resources */,
 				D05C74251C71173F00BD2EFB /* Main.storyboard in Resources */,
@@ -247,10 +252,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SuperCool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rrr.SuperCool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +266,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = SuperCool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rrr.SuperCool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +295,7 @@
 				D05C74301C71173F00BD2EFB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
